@@ -1,23 +1,22 @@
-import logo from './logo.svg';
+
 import './App.css';
+// import HooksUseMemo from './components/hooks/HooksUseMemo'; //useMemo
+import HooksUseRef from './components/hooks/HooksUseRef';
+// import HooksUseReducer from './components/hooks/HooksUseReducer'; //useReducer
+// import HooksUseContext from './components/hooks/HooksUseContext'; //useContext
+// import HooksExample from './components/hooks/HooksExample'; //hooks写法
+// import OriginExample from './components/origin/OriginExample'; //原始写法
+
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div className="m_auto">
+      {/* <OriginExample></OriginExample> */}
+      {/* <HooksExample></HooksExample> */}
+      {/* <HooksUseContext></HooksUseContext> */} 
+      {/* <HooksUseReducer></HooksUseReducer> */}
+      {/* <HooksUseMemo></HooksUseMemo> */}
+      <HooksUseRef></HooksUseRef>
     </div>
   );
 }
